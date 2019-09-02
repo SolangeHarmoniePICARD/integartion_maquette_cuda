@@ -1,6 +1,21 @@
 header{
-  background-color: #a103fc;
+  background-color: #87509c;
 }
 .services{
   background-color: #3cbb9a;
+}
+
+hr{
+  width: 24% !important;
+  background-color: rgba(255,255,255,0.5);
+  color: rgba(255,255,255,0.5);
+}
+
+a.nav-link.active{
+    background-color: #643a79 !important;
+}
+
+#work-with-us{
+  background-color: #eb7d4b !important;
+  box-shadow:  1px 3px #c66b43;
 }
