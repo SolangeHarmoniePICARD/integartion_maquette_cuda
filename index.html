@@ -1,203 +1,446 @@
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
 
-  <head>
-    <meta charset="utf-8">
-    <meta name="author" lang="fr" content="Solange Harmonie PICARD">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cuda</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-  </head>
+<head>
+  <meta charset="utf-8">
+  <meta name="author" lang="fr" content="Solange Harmonie PICARD">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cuda</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
 
-  <body>
-    <header>
+<body>
+  <header class="header">
 
-      <div class="container">
-        <nav class=" row navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+      <nav class=" row navbar navbar-expand-lg navbar-dark">
 
-          <div class="col-md-2">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
+        <div class="col-md-2">
+          <a class="navbar-brand" href="#">Cuda</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav col-md-10 d-flex justify-content-end">
+            <ul class="navbar-nav nav-pills">
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Work</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
           </div>
+        </div>
+      </nav>
+    </div>
 
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav col-md-10 d-flex justify-content-end">
-              <ul class="navbar-nav nav-pills">
-                <li class="nav-item">
-                  <a class="nav-link active" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">About</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Work</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Blog</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Contact</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
+    <div class="container p-5 text-light">
+      <div class="row">
+        <div class="col-md-12 d-flex justify-content-center">
+          <p class="lead">Hi there ! We are the kids on the block and we build awesome website and mobile apps.</p>
+        </div>
+        <hr class="my-4">
+        <div class="col-md-12 d-flex justify-content-center">
+          <a id="work-with-us" class="btn btn-lg mt-5 text-light pl-5 pr-5" href="#" role="button">Work with us</a>
+        </div>
       </div>
+    </div>
 
-      <div class="container min-vh-100 p-5 text-light">
-        <div class="row">
-          <div class="col-md-12 d-flex justify-content-center">
-            <p class="lead">Hi there ! We are the kids on the block and we build awesome website and mobile apps.</p>
+  </header>
+
+  <!-- services -->
+  <section class="services text-light min-vh-100 p-5">
+    <div class="container">
+      <div class="text-center">
+        <h1 class="h1">Services we provide</h1>
+        <hr>
+        <p>We are working with both individuals and businesses from all over the globbe to create awesome website and applications.</p>
+      </div>
+    </div>
+
+    <div class="elements container bg-transparent p-5">
+      <div class="card-deck">
+        <div class="card bg-transparent border-0">
+          <img src="images/flag.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h4 class="card-title text-white font-weight-bold">Branding</h4>
+            <p class="card-text text-white">Obseratis propugnaculis congesta aditibus in obseratis multitudine.</p>
           </div>
-          <hr class="my-4">
-          <div class="col-md-12 d-flex justify-content-center">
-            <a id="work-with-us" class="btn btn-lg mt-5 text-light pl-5 pr-5" href="#" role="button">Work with us</a>
+        </div>
+        <div class="card bg-transparent border-0">
+          <img src="images/edit.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h4 class="card-title text-white font-weight-bold">Design</h4>
+            <p class="card-text text-white">Obseratis propugnaculis congesta aditibus in obseratis multitudine.</p>
+          </div>
+        </div>
+        <div class="card bg-transparent border-0">
+          <img src="images/development_min.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h4 class="card-title text-white font-weight-bold">Development</h4>
+            <p class="card-text text-white">TObseratis propugnaculis congesta aditibus in obseratis multitudine.</p>
+          </div>
+        </div>
+        <div class="card bg-transparent border-0">
+          <img src="images/rocket_min.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h4 class="card-title text-white font-weight-bold">Rocket science</h4>
+            <p class="card-text text-white">Obseratis propugnaculis congesta aditibus in obseratis multitudine.</p>
           </div>
         </div>
       </div>
 
-    </header>
+    </div>
+  </section>
 
-    <!-- services -->
-    <section class="services text-light min-vh-100 p-5">
+  <!-- team -->
+  <section class="team text-light min-vh-100 p-5">
+    <div class="container">
+      <header class="meetTeam text-center">
+        <h2 class="font-weight-bold">MEET OUR BEAUTIFUL TEAM</h2>
+        <hr>
+        <p>We are small team of designers and developers, who help brands with big ideas</p>
+      </header>
+
+      <div class="card-deck pt-5">
+
+        <!-- membre1-->
+        <div class="card bg-transparent border-0">
+          <img src="images/anne_hathaway.jpg" class="card-img-top rounded-circle" alt="photo membre de l'équipe">
+          <div class="card-body text-center">
+            <h5 class="card-title font-weight-bold">Anne HATHAWAY</h5>
+            <p>CEO Marketing Guru</p>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+          </div>
+          <div class="card-footer bg-transparent border-top-0 text-center">
+            <small class="text-muted">
+              <img src="images/fb.png" alt="">
+              <img src="images/twitt.png" alt="">
+              <img src="images/linkedin.png" alt="">
+              <img src="images/mail.png" alt="">
+
+            </small>
+          </div>
+        </div>
+
+        <!-- memebre 2-->
+        <div class="card bg-transparent border-0">
+          <img src="images/kate_upton.jpeg" class="card-img-top rounded-circle" alt="...">
+          <div class="card-body text-center">
+            <h5 class="card-title font-weight-bold">Kate UPTON</h5>
+            <p>Creative Director</p>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+          </div>
+          <div class="card-footer bg-transparent border-top-0 text-center">
+            <small class="text-muted">
+              <img src="images/twitt.png" alt="">
+              <img src="images/linkedin.png" alt="">
+              <img src="images/mail.png" alt="">
+            </small>
+          </div>
+        </div>
+
+        <!-- membre 3 -->
+        <div class="card bg-transparent border-0">
+          <img src="images/oliviaW.jpeg" class="card-img-top rounded-circle" alt="...">
+          <div class="card-body text-center">
+            <h5 class="card-title font-weight-bold">Olivia WILDE</h5>
+            <p>Lead Designer</p>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+          </div>
+          <div class="card-footer bg-transparent border-top-0 text-center">
+            <small class="text-muted">
+              <img src="images/fb.png" alt="">
+              <img src="images/twitt.png" alt="">
+              <img src="images/linkedin.png" alt="">
+              <img src="images/mail.png" alt="">
+            </small>
+          </div>
+        </div>
+
+        <!-- membre4-->
+        <div class="card bg-transparent border-0">
+          <img src="images/ashley_greene.jpeg" class="card-img-top rounded-circle" alt="...">
+          <div class="card-body text-center">
+            <h5 class="card-title font-weight-bold">Ashley GREENE</h5>
+            <p>SEO / Developer</p>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+          </div>
+          <div class="card-footer bg-transparent border-top-0 text-center">
+            <small class="text-muted">
+              <img src="images/twitt.png" alt="">
+              <img src="images/linkedin.png" alt="">
+              <img src="images/mail.png" alt="">
+            </small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- produits-->
+  <section class="skills p-5">
+    <div class="container">
+
+      <header class="got-skills text-center">
+        <h2 class="font-weight-bold">WE GOT SKILLS</h2>
+        <hr>
+        <p class="font-weight-bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam facilisis eros ut elit congue vestibulum. Praesent molestie neque ut suscipit dignissim. Proin elementum feugiat dolor, at varius risus auctor a.</p>
+      </header>
+
+      <div class="progressingCircle row pt-5">
+        <!-- progressing br 1-->
+        <div class="col-xl-3 col-lg-6 mb-4">
+          <div class="progress mx-auto" data-value='90'>
+            <span class="progress-left">
+              <span class="progress-bar border-primary"></span>
+            </span>
+            <span class="progress-right">
+              <span class="progress-bar border-primary"></span>
+            </span>
+            <div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+              <div class="h2 font-weight-bold">90<sup class="small">%</sup></div>
+            </div>
+          </div>
+          <h2 class="h6 font-weight-bold text-center mb-4 pt-4">Web Design</h2>
+        </div>
+
+        <!--progressing bar 2-->
+        <div class="col-xl-3 col-lg-6 mb-4">
+          <div class="progress mx-auto" data-value='75'>
+            <span class="progress-left">
+              <span class="progress-bar border-danger"></span>
+            </span>
+            <span class="progress-right">
+              <span class="progress-bar border-danger"></span>
+            </span>
+            <div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+              <div class="h2 font-weight-bold">75<sup class="small">%</sup></div>
+            </div>
+          </div>
+          <h2 class="h6 font-weight-bold text-center mb-4 pt-4">HTML / CSS</h2>
+        </div>
+
+        <!--progressing bar 3-->
+        <div class="col-xl-3 col-lg-6 mb-4">
+          <div class="progress mx-auto" data-value='70'>
+            <span class="progress-left">
+              <span class="progress-bar border-success"></span>
+            </span>
+            <span class="progress-right">
+              <span class="progress-bar border-success"></span>
+            </span>
+            <div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+              <div class="h2 font-weight-bold">70<sup class="small">%</sup></div>
+            </div>
+          </div>
+          <h2 class="h6 font-weight-bold text-center mb-4 pt-4">Graphic Design</h2>
+        </div>
+
+        <!--progressing bar 4-->
+        <div class="col-xl-3 col-lg-6 mb-4">
+          <div class="progress mx-auto" data-value='85'>
+            <span class="progress-left">
+              <span class="progress-bar border-warning"></span>
+            </span>
+            <span class="progress-right">
+              <span class="progress-bar border-warning"></span>
+            </span>
+            <div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+              <div class="h2 font-weight-bold">85<sup class="small">%</sup></div>
+            </div>
+          </div>
+          <h2 class="h6 font-weight-bold text-center mb-4 pt-4">UI / UX</h2>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!===============>
+    <section class="portfolio min-vh-100 p-5">
       <div class="container">
-        <div class="text-center">
-          <h1 class="h1">Services we provide</h1>
+        <header class="delivery text-center pt-6">
+          <h2 class="font-weight-bold">OUR PORTFOLIO</h2>
           <hr>
-          <p>We are working with both individuals and businesses from all over the globbe to create awesome website and applications.</p>
-        </div>
-      </div>
-
-      <div class="elements container bg-transparent p-5">
-        <div class="card-deck">
-          <div class="card bg-transparent border-0">
-            <img src="images/flag.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h4 class="card-title font-weight-bold">Branding</h4>
-              <p class="card-text">Obseratis propugnaculis congesta aditibus in obseratis multitudine.</p>
-            </div>
-          </div>
-          <div class="card bg-transparent border-0">
-            <img src="images/edit.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h4 class="card-title font-weight-bold">Design</h4>
-              <p class="card-text">Obseratis propugnaculis congesta aditibus in obseratis multitudine.</p>
-            </div>
-          </div>
-          <div class="card bg-transparent border-0">
-            <img src="images/development_min.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h4 class="card-title font-weight-bold">Development</h4>
-              <p class="card-text">TObseratis propugnaculis congesta aditibus in obseratis multitudine.</p>
-            </div>
-          </div>
-          <div class="card bg-transparent border-0">
-            <img src="images/rocket_min.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h4 class="card-title font-weight-bold">Rocket sciences</h4>
-              <p class="card-text">Obseratis propugnaculis congesta aditibus in obseratis multitudine.</p>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </section>
-
-    <!-- team -->
-    <section class="team">
-      <div class="container">
-        <header class="meetTeam">
-          <h2>MEET OUR BEAUTIFUL TEAM</h2>
-          <div class="line"></div>
-          <p>We are small team of designers and developers, who help brands with big ideas</p>
+          <p class="font-weight-bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam facilisis eros ut elit congue vestibulum. Praesent molestie neque ut suscipit dignissim. Proin elementum feugiat dolor, at varius risus auctor a.</p>
         </header>
+        <div class="categories text-center pt-3">
+          <button type="button" class="btn btn-light font-weight-bold">All</button>
+          <button type="button" class="btn btn-light font-weight-bold">Web</button>
+          <button type="button" class="btn btn-light font-weight-bold">Apps</button>
+          <button type="button" class="btn btn-outline-dark font-weight-bold">Icons</button>
+        </div>
 
-        <div class="card-deck">
-
-          <!-- membre1-->
-          <div class="card">
-            <img src="images/anne_hathaway.jpg" class="card-img-top rounded-circle" alt="photo membre de l'équipe">
-            <div class="card-body">
-              <h5 class="card-title">Anne HATHAWAY</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-            </div>
-            <div class="card-footer">
-              <small class="text-muted">
-                <img src="images/fb.png" alt="">
-                <img src="images/twitt.png" alt="">
-                <img src="images/linkedin.png" alt="">
-                <img src="images/mail.png" alt="">
-
-              </small>
-            </div>
+        <div class="works mt-4">
+          <div class="line1 row">
+            <article class="article1 pr-4 pt-3">
+              <img src="images/wk1.png" alt="">
+              <p class="pt-4 text-center">ISOMETRIC PERSPECTIVE MOCK-UP</p>
+            </article>
+            <article class="article2 pt-3">
+              <img src="images/wk2.png" alt="">
+              <p class="pt-4 text-center">TIME ZONE APP UI</p>
+            </article>
           </div>
-
-          <!-- memebre 2-->
-          <div class="card">
-            <img src="images/kate_upton.jpeg" class="card-img-top rounded-circle" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Kate UPTON</h5>
-              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-            </div>
-            <div class="card-footer">
-              <small class="text-muted">
-                <img src="images/twitt.png" alt="">
-                <img src="images/linkedin.png" alt="">
-                <img src="images/mail.png" alt="">
-              </small>
-            </div>
+          <div class="line2 row ">
+            <article class="article3 pr-4 pt-3">
+              <img src="images/wk3.png" alt="">
+              <p class="pt-4 text-center">VIRO MEDIA PLAYERS UI</p>
+            </article>
+            <article class="article4 pt-3">
+              <img src="images/wk4.png" alt="">
+              <p class="pt-4 text-center">BLOG / MAGAZINE FLAT UI KIT</p>
+            </article>
           </div>
-
-          <!-- membre 3 -->
-          <div class="card">
-            <img src="images/oliviaW.jpeg" class="card-img-top rounded-circle" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Olivia WILDE</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-            </div>
-            <div class="card-footer">
-              <small class="text-muted">
-                <img src="images/fb.png" alt="">
-                <img src="images/twitt.png" alt="">
-                <img src="images/linkedin.png" alt="">
-                <img src="images/mail.png" alt="">
-              </small>
-            </div>
-          </div>
-
-          <!-- membre4-->
-          <div class="card border-0">
-            <img src="images/ashley_greene.jpeg" class="card-img-top rounded-circle" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Ashley GREENE</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-            </div>
-            <div class="card-footer bg-transparent border-top-0 text-center">
-              <small class="text-muted">
-                <img src="images/twitt.png" alt="">
-                <img src="images/linkedin.png" alt="">
-                <img src="images/mail.png" alt="">
-              </small>
-            </div>
+          <div class="button text-center pt-3">
+            <button type="button" class="btn btn-success">LOAD MORE PROJECTS</button>
           </div>
         </div>
       </div>
     </section>
 
-<!-- produits-->
-    <section>
+    <!========================================================>
+      <section class="testimonies min-vh-100 p-5">
+        <div class="container">
+          <header class="poeple text-center">
+            <h2 class="font-weight-bold text-white">WHAT POEPLE SAY ABOUT US</h2>
+            <hr>
+            <p class="font-weight-bold text-white">Our clients love us</p>
+          </header>
 
-    </section>
+          <div class="row pt-5">
+            <div class="card-deck">
+              <div class="card mb-3 bg-transparent border-0" style="max-width: 540px;">
+                <div class="row no-gutters">
+                  <div class="col-md-4">
+                    <img src="images/chanelI.jpeg" class="card-img rounded-circle" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body text-white">
+                      <p class="card-text">"This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer."</p>
+                      <h5 class="card-title font-weight-bold">CHANEL IMAN</h5>
+                      <p class="card-text"><small class="text-warning font-weight-bold">CEO of Pinterest</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card mb-3 bg-transparent border-0" style="max-width: 540px;">
+                <div class="row no-gutters">
+                  <div class="col-md-4">
+                    <img src="images/adrianaL.jpeg" class="card-img rounded-circle" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body text-white">
+                      <p class="card-text">"This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer."</p>
+                      <h5 class="card-title font-weight-bold">ADRIANA LIMA</h5>
+                      <p class="card-text"><small class="text-warning font-weight-bold">Founded of Instagram</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-deck mt-5">
+              <div class="card mb-3 bg-transparent border-0" style="max-width: 540px;">
+                <div class="row no-gutters">
+                  <div class="col-md-4">
+                    <img src="images/anne_hathaway.jpg" class="card-img rounded-circle" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body text-white">
+                      <p class="card-text">"This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer."</p>
+                      <h5 class="card-title font-weight-bold">ANNE HATHAWAY</h5>
+                      <p class="card-text"><small class="text-warning font-weight-bold">Lead designer at Behavior</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card mb-3 bg-transparent border-0" style="max-width: 540px;">
+                <div class="row no-gutters">
+                  <div class="col-md-4">
+                    <img src="images/emmaS.jpeg" class="card-img rounded-circle" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body text-white">
+                      <p class="card-text">"This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer."</p>
+                      <h5 class="card-title font-weight-bold">EMMA STONE</h5>
+                      <p class="card-text"><small class="text-warning font-weight-bold">Co-founded of Shazam</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="form p-5">
+        <div class="container">
+          <header class="get_in_touch text-center">
+            <h2 class="font-weight-bold text-white">GET IN TOUCH</h2>
+            <hr>
+            <p class="font-weight-bold text-white">1600 Pennsylvania Ave NW, Washington, DC 20500, United State of America. Tel(202) 456-1111</p>
+          </header>
+
+          <form class="p-5">
+            <div class="form-row">
+              <div class="col">
+                <input type="text" class="form-control" id="validationServer01" placeholder="First name">
+              </div>
+              <div class="col">
+                <input type="text" class="form-control" placeholder="Last name">
+              </div>
+            </div>
+            <div class="mb-3">
+              <label for="validationTextarea">Textarea</label>
+              <textarea class="form-control is-invalid" id="validationTextarea" placeholder="Required example textarea" required></textarea>
+              <div class="invalid-feedback">
+                Please enter a message in the textarea.
+              </div>
+            </div>
+            <button class="btn btn-primary btn-lg" type="submit">Send message</button>
+          </form>
+        </div>
+      </section>
+
+      <footer>
+        <div class="container">
+          <div class="socialNetwork p-4">
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">Google+</a>
+            <a href="#">linkedin</a>
+            <a href="#">Behance</a>
+            <a href="#">Dribble</a>
+            <a href="#">GitHub</a>
+          </div>
+        </div>
+      </footer>
 
 
-    <script src="https://kit.fontawesome.com/6fee70888d.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
+
+      <script src="https://kit.fontawesome.com/6fee70888d.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+      <script type="text/javascript" src="js/progressBar.js"></script>
+</body>
 
 
 </html>

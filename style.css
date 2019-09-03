@@ -1,21 +1,122 @@
-header{
+.header{
   background-color: #87509c;
 }
-.services{
-  background-color: #3cbb9a;
+a.nav-link.active{
+    background-color: #643a79 !important;
+}
+#work-with-us{
+  background-color: #eb7d4b !important;
+  box-shadow:  1px 3px #c66b43;
 }
 
+/*services section*/
+.services{
+  background-color: #3cbb9a;
+  color: white;
+}
 hr{
   width: 24% !important;
   background-color: rgba(255,255,255,0.5);
   color: rgba(255,255,255,0.5);
 }
 
-a.nav-link.active{
-    background-color: #643a79 !important;
+
+/* team section*/
+.team{
+  background-color: #e7f1f8;
+  color:  #3c4761 ;
+}
+.meetTeam{
+  color: #3c4761;
+}
+.card{
+  color: #3c4761;
 }
 
-#work-with-us{
-  background-color: #eb7d4b !important;
-  box-shadow:  1px 3px #c66b43;
+/* section skills */
+.got-skills{
+  color: #3c4761;
+}
+
+/* barres de chargement circulaire*/
+.progressingCircle{
+  color: #3c4761;
+}
+.progress {
+  width: 150px;
+  height: 150px;
+  background: none;
+  position: relative;
+}
+.progress::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 6px solid #eee;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.progress>span {
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+.progress .progress-left {
+  left: 0;
+}
+/*cadre couleur pour la barre de progression, coté gauche*/
+.progress .progress-bar {
+  width: 100%;
+  height: 100%;
+  background: none;
+  border-width: 6px;
+  border-style: solid;
+  position: absolute;
+  top: 0;
+}
+.progress .progress-left .progress-bar {
+  left: 100%;
+  border-top-right-radius: 80px;
+  border-bottom-right-radius: 80px;
+  border-left: 0;
+  -webkit-transform-origin: center left;
+  transform-origin: center left;
+}
+/* cadre couleur barre de progression cot droit*/
+.progress .progress-right {
+  right: 0;
+}
+/* fait disparaître les cadres colorés */
+.progress .progress-right .progress-bar {
+  left: -100%;
+  border-top-left-radius: 80px;
+  border-bottom-left-radius: 80px;
+  border-right: 0;
+  -webkit-transform-origin: center right;
+  transform-origin: center right;
+}
+.progress .progress-value {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* section portfolio */
+.portfolio{
+  background-color: #ffdd99;
+}
+
+/* section temoignage */
+.testimonies{
+  background-color: #d74680;
+}
+
+/* formulaire */
+.form{
+  background-color: #3c5499;
 }
