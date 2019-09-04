@@ -11,7 +11,7 @@ a.nav-link.active{
 
 
 /*services section*/
-.services{
+#services{
   background-color: #3cbb9a;
   color: white;
 }
