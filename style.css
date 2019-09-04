@@ -9,6 +9,7 @@ a.nav-link.active{
   box-shadow:  1px 3px #c66b43;
 }
 
+
 /*services section*/
 .services{
   background-color: #3cbb9a;
@@ -110,7 +111,12 @@ hr{
 .portfolio{
   background-color: #ffdd99;
 }
-
+.web{
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.icons, .web, .apps{
+  background-color: #f1c87a;
+}
 /* section temoignage */
 .testimonies{
   background-color: #d74680;
@@ -119,4 +125,9 @@ hr{
 /* formulaire */
 .form{
   background-color: #3c5499;
+}
+
+/* le footer */
+footer{
+  background-color: #344b8e;
 }
